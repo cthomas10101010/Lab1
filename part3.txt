@@ -1,0 +1,78 @@
+
+
+Reasoned about lab submission steps for 15 seconds
+Organizing and gathering
+
+I’m compiling all the necessary elements: .cpp and .h files, code or test snippets, Towers of Hanoi data saved in Excel or Google Sheets, and concise answers. Everything should be formatted as required for submission.
+
+Consolidating materials
+
+Ensuring all materials are in one package—code files (.cpp, .h), spreadsheet charts or screenshots, and short answers. Follow specific instructions for format—ZIP, PDF, or DOC.
+
+Congratulations! Your code is compiled and running successfully—so you’re essentially done coding. The final step is to package everything (code, screenshots, short answers) according to your instructor’s guidelines and submit it via Blackboard or whatever platform your course uses.
+
+Below is a general checklist to make sure you turn in everything needed for an “A”:
+
+1. Gather Your Code Files
+Lab1.cpp (and possibly main.cpp, Lab1.hpp, or whichever files you used).
+Ensure each file is well-commented (if required).
+Your instructor specifically says:
+“Turn in all your work (code, spreadsheets, graphs, and short answers) into Blackboard.”
+
+So you’ll either:
+
+Upload the individual .cpp/.h files directly into Blackboard, or
+Compress (zip) them into a single file (e.g., Lab1Submission.zip) before uploading.
+(Check your course policy. Some require everything in a zip file. Others let you upload multiple files.)
+
+2. Provide the Time-Complexity “Artifacts”
+Part 3 specifically requires you to:
+
+Gather sample points of your towers(n) function.
+Enter them into a spreadsheet (Excel, Google Sheets, etc.).
+Create a plot (line chart or scatter plot) of n vs. towers(n).
+Take a screenshot of that chart.
+You must then:
+
+Upload that spreadsheet or at least the screenshot of the plot (preferably both).
+Make sure your short answers (see below) reference your data or show the output for 10, 100, 1,000 rings, etc.
+3. Write Your Short Answers
+Under Part 3, you have three questions:
+
+What Big-O do you estimate the time complexity to be?
+
+Likely 
+𝑂
+(
+2
+𝑛
+)
+O(2 
+n
+ ) for Towers of Hanoi.
+How many moves (significant operations) for 10 rings, 100 rings, 1,000 rings, 10k rings?
+
+Show the exponential growth (e.g. 
+2
+10
+−
+1
+=
+1023
+2 
+10
+ −1=1023, 
+2
+100
+−
+1
+2 
+100
+ −1 is enormous, etc.).
+Is this a practical algorithm for large inputs?
+
+Typically “No,” because it grows exponentially and becomes infeasible very quickly.
+Make sure you:
+
+Put these answers in a document, or
+Type them into the Submission Text area in Blackboard (if allowed).
