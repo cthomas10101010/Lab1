@@ -1,0 +1,33 @@
+Step-by-Step Guide to Creating Your Spreadsheet and Chart
+Open Your Spreadsheet Program:
+
+You can use Google Sheets, Microsoft Excel, or another similar tool.
+Enter the Data:
+
+Create two columns:
+
+Column A: Label it “n (Number of Rings)”
+Column B: Label it “Moves (towers(n))”
+Enter the data as follows:
+
+n (Number of Rings)	Moves (towers(n))
+1	1
+2	3
+3	7
+4	15
+5	31
+6	63
+7	127
+8	255
+9	511
+10	1023
+Create the Chart:
+
+Select both columns of data.
+Insert a Chart (a line chart or scatter plot is ideal).
+Make sure your x-axis is set to “n (Number of Rings)” and your y-axis is set to “Moves (towers(n))”.
+Format the chart as needed so it clearly shows the exponential growth.
+Take a Screenshot:
+
+Once your chart is ready and clearly shows the data points (and their exponential trend), take a screenshot of your chart.
+Save the screenshot as an image file (e.g., PNG or JPEG).
