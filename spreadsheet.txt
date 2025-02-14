@@ -1,33 +1,91 @@
-Step-by-Step Guide to Creating Your Spreadsheet and Chart
-Open Your Spreadsheet Program:
+What Big-O do you estimate the time complexity to be?
+The Towers of Hanoi algorithm, as implemented, has a time complexity of O(2ⁿ).
 
-You can use Google Sheets, Microsoft Excel, or another similar tool.
-Enter the Data:
+Explanation: The recurrence relation for the number of moves is:
+𝑇
+(
+𝑛
+)
+=
+2
+𝑇
+(
+𝑛
+−
+1
+)
++
+1
+T(n)=2T(n−1)+1
+which simplifies to 
+𝑇
+(
+𝑛
+)
+=
+2
+𝑛
+−
+1
+T(n)=2 
+n
+ −1. This is exponential, so the complexity is O(2ⁿ).
+Using your chosen function from step 1, how many significant operations would 10 rings require? 100? 1,000? 10k?
 
-Create two columns:
+10 rings:
+2
+10
+−
+1
+=
+1023
+2 
+10
+ −1=1023 moves
+100 rings:
+2
+100
+−
+1
+2 
+100
+ −1, which is approximately 
+1.27
+×
+10
+30
+1.27×10 
+30
+  moves
+1,000 rings:
+2
+1000
+−
+1
+2 
+1000
+ −1, an astronomically huge number (far beyond any practical computation)
+10k (10,000) rings:
+2
+10000
+−
+1
+2 
+10000
+ −1, which is inconceivably large—there’s no practical way to compute or even represent this number.
+Summary: Even with 10 rings the number of moves is over a thousand; as the number of rings increases, the number of moves grows exponentially, reaching impractical values very quickly.
 
-Column A: Label it “n (Number of Rings)”
-Column B: Label it “Moves (towers(n))”
-Enter the data as follows:
+Is this a practical algorithm for large input sizes? Explain your reasoning.
+Answer:
+No, this algorithm is not practical for large input sizes.
 
-n (Number of Rings)	Moves (towers(n))
-1	1
-2	3
-3	7
-4	15
-5	31
-6	63
-7	127
-8	255
-9	511
-10	1023
-Create the Chart:
-
-Select both columns of data.
-Insert a Chart (a line chart or scatter plot is ideal).
-Make sure your x-axis is set to “n (Number of Rings)” and your y-axis is set to “Moves (towers(n))”.
-Format the chart as needed so it clearly shows the exponential growth.
-Take a Screenshot:
-
-Once your chart is ready and clearly shows the data points (and their exponential trend), take a screenshot of your chart.
-Save the screenshot as an image file (e.g., PNG or JPEG).
+Reasoning: The exponential growth (O(2ⁿ)) means that even a small increase in the number of rings results in an enormous increase in the number of moves (or operations). For example, while 10 rings require about 1,023 moves, 100 rings require roughly 
+1.27
+×
+10
+30
+1.27×10 
+30
+  moves. This exponential growth makes the algorithm computationally infeasible for moderate to large values of 
+𝑛
+n.
